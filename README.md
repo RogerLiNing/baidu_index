@@ -1,5 +1,5 @@
 # baidu_index
-Baidu index - index.baidu.com/baidu-index-mobile/
+Baidu index - fetch data from index.baidu.com/baidu-index-mobile/
 
 
 # Installation

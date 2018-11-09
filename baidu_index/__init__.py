@@ -13,3 +13,4 @@ __version__ = '1.0'
 from baidu_index.client import Client
 
 name = "baidu_index"
+

@@ -8,8 +8,10 @@
     :license: Apache, see LICENSE for more details.
 """
 
-
+# 3rd party library
 import requests
+
+# local application
 from baidu_index.utils import decode_index_multi
 
 
