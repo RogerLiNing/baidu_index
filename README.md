@@ -3,7 +3,7 @@ Baidu index - fetch data from index.baidu.com/baidu-index-mobile/
 
 
 # Installation
-- [ ]  pip install baidu_index
+- [x]  pip install baidu_index
 - [x]  run `pipenv update` , `pipenv shell` and `python`
 
 
@@ -12,6 +12,8 @@ Baidu index - fetch data from index.baidu.com/baidu-index-mobile/
 from baidu_index import Client
 
 # cookie can be found in browser
+# pleasa note that you must visit the index website first 
+# so the BDUSS will be valid 
 # you can neither pass in cookie_str or BDUSS
 # to initialize the class
 
