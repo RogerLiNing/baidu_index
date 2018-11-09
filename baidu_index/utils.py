@@ -42,7 +42,7 @@ def get_dates(period_str):
 
 
 def get_date_from_range(start_date, end_date):
-    # 生成给定时间范围内的每天日期
+    # generate a list of date range base on start date and end date
     start = datetime.strptime(start_date, "%Y%m%d")
     end = datetime.strptime(end_date, "%Y%m%d") + timedelta(days=1)
     date_generated = [start + timedelta(days=x) for x in range(0, (end - start).days)]
@@ -66,11 +66,11 @@ def decode_index_multi(json_data, ptbk_json_data):
             """
             {'key': 'python', 'index': [{'period': '20181020|20181026', '_all': '6gQ86,686Uo,Ug448,UgQY4,Ug4gU,U8LY8,U6UUo', '_pc': 'oUoY,Y8Eg,6Y86o,6Eo4g,6YQg6,6ELYY,64Y4L', '_wise': 'gE88,gE44,LU8g,L686,L4Q6,4oo4,48E8'}]}
             """
-            # 分割_all
+            # split all
             M = list(data[i]['index'][0]["_all"]) if data[i]['index'][0]["_all"] else []
-            # 分割_pc
+            # split pc
             I = list(data[i]['index'][0]["_pc"]) if data[i]['index'][0]["_pc"] else []
-            # 分割_wise
+            # split wise
             C = list(data[i]['index'][0]["_wise"]) if data[i]['index'][0]["_wise"] else []
 
             # all
@@ -100,7 +100,7 @@ def decode_index_multi(json_data, ptbk_json_data):
 
                 A += 1
 
-            # 重组解码过的指数
+            # rejoin the data after decrypted
             data[i]['index'][0]["all"] = "".join(S)
             data[i]['index'][0]["pc"] = "".join(k)
             data[i]['index'][0]["wise"] = "".join(T)

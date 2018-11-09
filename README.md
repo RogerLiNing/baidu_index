@@ -33,3 +33,7 @@ print(result)
 # To-do list
 
 - [x]  query baidu index by passing keywords
+
+# FAQ
+#### What is 'all','pc','wise'?
+all is the sum of pc and wise, wise means mobile devices.
