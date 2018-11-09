@@ -1,15 +1,13 @@
 # baidu_index
-
-#### introduction
 Baidu index - index.baidu.com/baidu-index-mobile/
 
 
-#### installation
+# Installation
 - [ ]  pip install baidu_index
 - [x]  run `pipenv update` , `pipenv shell` and `python`
 
 
-#### use examples
+# A simple use examples
 ```python
 from baidu_index import Client
 
@@ -32,6 +30,6 @@ print(result)
 
 ```
 
-#### to-dos
+# To-do list
 
 - [x]  query baidu index by passing keywords

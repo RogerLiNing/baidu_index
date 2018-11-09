@@ -1,3 +1,14 @@
+# -*- coding: utf-8 -*-
+"""
+    baidu_index.client
+    ~~~~~~~~~
+    This module is intended to help send http request and get back the data.
+    :copyright: © 2018 by Roger Lee
+    :email: 704482843@qq.com
+    :license: Apache, see LICENSE for more details.
+"""
+
+
 import requests
 from baidu_index.utils import decode_index_multi
 

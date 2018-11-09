@@ -1,5 +1,12 @@
 # -*- coding: utf-8 -*-
-
+"""
+    baidu_index.utils
+    ~~~~~~~~~
+    This module is intended to help decrypt the index data.
+    :copyright: © 2018 by Roger Lee
+    :email: 704482843@qq.com
+    :license: Apache, see LICENSE for more details.
+"""
 from datetime import datetime, timedelta
 
 
