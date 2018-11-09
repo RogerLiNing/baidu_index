@@ -110,3 +110,5 @@ venv.bak/
 dmypy.json
 *.xml
 test.py
+# pycharm
+.idea
