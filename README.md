@@ -1,18 +1,22 @@
 # baidu_index
 
-#### 项目介绍
+#### introduction
 Baidu index - index.baidu.com/baidu-index-mobile/
 
 
-#### 安装教程
-1. pip install baidu_index
+#### installation
+- [ ]  pip install baidu_index
+- [x]  run `pipenv update` , `pipenv shell` and `python`
 
 
-#### 使用说明
+#### use examples
 ```python
 from baidu_index import Client
 
 # cookie can be found in browser
+# you can neither pass in cookie_str or BDUSS
+# to initialize the class
+
 # client = Client(cookie_str="cookie strings")
 client = Client(BDUSS="BDUSS")
 
@@ -28,6 +32,6 @@ print(result)
 
 ```
 
-#### 已实现功能
+#### to-dos
 
-- [x]  输入关键词查百度指数
+- [x]  query baidu index by passing keywords

@@ -110,7 +110,8 @@ class Client:
                 elif response.json()['status'] == 1:
                     return False
         except Exception as e:
-            print(f"Error from {__class__.__name__}._get_encrypt_index:",str(e))
+            print(f"Error from {__class__.__name__}._get_encrypt_index:", str(e))
+
     def _get_decode_ptbk(self, uniqueid):
         """
         This method will take a uniqueid that pull back by the
