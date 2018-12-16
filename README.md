@@ -3,7 +3,7 @@ Baidu index - fetch data from index.baidu.com/baidu-index-mobile/
 
 
 # Installation
-- [x]  pip install baidu_index
+- [ ]  pip install baidu_index
 - [x]  run `pipenv update` , `pipenv shell` and `python`
 
 
