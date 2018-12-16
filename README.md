@@ -12,7 +12,7 @@ Baidu index - fetch data from index.baidu.com/baidu-index-mobile/
 from baidu_index import Client
 
 # cookie can be found in browser
-# pleasa note that you must visit the index website first 
+# pleas note that you must visit the index website first 
 # so the BDUSS will be valid 
 # you can neither pass in cookie_str or BDUSS
 # to initialize the class
