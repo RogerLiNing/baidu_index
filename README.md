@@ -7,7 +7,7 @@ Baidu index - fetch data from index.baidu.com/baidu-index-mobile/
 - [x]  run `pipenv update` , `pipenv shell` and `python`
 
 
-# A simple use examples
+# A simple use example
 ```python
 from baidu_index import Client
 
